@@ -1,0 +1,31 @@
+#home {
+    background-color: #2e2c2d;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.great {
+    font-size: 3.2vmin;
+    color: #eeeeee;
+    font-weight: 300;
+}
+
+.name {
+    font-size: 7vmin;
+    color: #eeeeee;
+}
+
+.help {
+    font-weight: 400;
+    color: #eeeeee;
+    font-size: 3.5vmin;
+}
+
+
+@media screen and (max-width:1000px) {
+    .eletronics {
+        display: none;
+    }
+}
